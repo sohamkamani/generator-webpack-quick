@@ -1,0 +1,33 @@
+{
+  "name": "generator-webpack-quick",
+  "version": "0.1.0",
+  "description": "Generates a quick webpack bootstrap web application for prototyping",
+  "homepage": "",
+  "author": {
+    "name": "sohamkamani",
+    "email": "sohamkamani@gmail.com",
+    "url": "sohamkamani.com"
+  },
+  "files": [
+    "generators"
+  ],
+  "main": "generators/index.js",
+  "keywords": [
+    "yeoman-generator"
+  ],
+  "dependencies": {
+    "chalk": "^1.0.0",
+    "object-assign": "^4.0.1",
+    "yeoman-generator": "^0.21.1",
+    "yosay": "^1.0.2"
+  },
+  "devDependencies": {
+    "mocha": "^2.3.4",
+    "yeoman-assert": "^2.0.0"
+  },
+  "repository": "sohamkamani/generator-webpack-quick",
+  "scripts": {
+    "test": "mocha test/*.js"
+  },
+  "license": "MIT"
+}
